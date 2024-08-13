@@ -1,0 +1,77 @@
+<html>
+    <head>
+       <style>
+           label{
+               font-weight: 900;
+               font-size: medium;
+           }
+           .A{
+            padding: 5px;
+            margin-top: 1pc;
+            width: 30pc;
+            margin-top: 30px;
+           }
+          .d{
+            font-weight: 300; 
+            color: #888;
+          }
+          div{
+            border: 1px solid black;
+            text-align: center;
+            margin-right: 70pc;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+          }
+          
+       </style>
+    </head>
+    <body>
+        <form>
+          <fieldset>
+             <h2>Job Application Form</h2>
+             <p>Please fill out the form below to apply for a job</p>
+             <label for="first">First Name :-</label>
+             <input type="text" placeholder="Enter your first name" name="first" id="first" style="padding: 3px;">
+             <label for="last" style="margin-left: 2pc;">Last Name:-</label>
+             <input type="text" placeholder="Enter your last name" name="last" id="last" style="padding: 3px;"><br>
+             <label for="mail">Email Address</label>
+             <input type="email" name="mail" id="name" placeholder="Enter your email address" class="A"><br>
+             <label for="phone">Phone number</label>
+             <input type="number" placeholder="Enter Your Phone number" class="A"><br>
+             <label for="position">position</label><br>
+             <select name="position" id="position" placeholder="Please select the position you are applying for" >
+                <option value="Data Administrator">Data Administrator</option>
+                <option value="Data Enginner">Data Enginner</option>
+                <option value="Data Sceintist">Data Sceintist</option>
+                <option value="Data Manager">Data Manager</option>
+            </select><br>
+            <p>Are you willing to relocate?</p>
+             <input type="radio" value="Yes" name="loc" id="loc1">
+             <label for="loc1">Yes</label>
+             <input type="radio" value="Yes" name="loc" id="loc12">
+             <label for="loc12">No</label>
+            <p>How many years of experience do you have?</p>
+            <input type="radio" value="0-1" name="s" id="0">
+            <label for="0">0-1</label>
+            <input type="radio" value="1-3" name="s" id="1">
+            <label for="1">0-3</label>
+            <input type="radio" value="3-5" name="s" id="2">
+            <label for="2">3-5</label>
+            <input type="radio" value="5+" name="s" id="3">
+            <label for="3">5+</label><br>
+            <label for="letter">Cover Letter</label>
+            <input type="text" placeholder="Enter Your Cover Letter Here" class="A">
+            <p class="d">Please tell us Why you are a good fit for this position and you want to work for us</p>     
+            <label for="res">Resume</label>
+            <p>Please upload your resume as pdf or word folder</p> 
+            <div>
+            <input type="file"> 
+            </div><br>
+            <input type="checkbox" name="f" height="1px" width="10px">
+            <label for="f">I contest the processing of my personal data for the purpose of this job application</label><br><br>
+            <a href="succesfully.html"><buttom style="border: 1px solid black; background-color: blue; color: aliceblue;">Submit Application</buttom></a>
+         </fieldset>
+        </form>
+    </body>
+</html>
